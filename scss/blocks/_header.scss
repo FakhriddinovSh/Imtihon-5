@@ -1,8 +1,11 @@
 .site-header__bottom{
+    padding-top: 7px;
+    padding-bottom: 7px;
     background: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
 }
 
 .site-header__button{
+    width: 131px;
     padding: 10px 28px;
     color: #DC7000;
 }
@@ -13,6 +16,7 @@
 
 .site-header__toplink{
     font-size: 10px;
+    color: #1A1A1A;
     &::before{
         position: absolute;
         width: 15px;
