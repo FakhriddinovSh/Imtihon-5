@@ -1,0 +1,65 @@
+.site-header__bottom{
+    background: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
+}
+
+.site-header__button{
+    padding: 10px 28px;
+    color: #DC7000;
+}
+
+.site-header__list{
+    z-index: 10000!important;
+}
+
+.site-header__toplink{
+    font-size: 10px;
+    &::before{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: -20px;
+        content: "";
+        background-image: url("../images/icons/location.svg");
+        background-repeat: no-repeat;
+    }
+    &:nth-child(2)::before{
+        background-image: url("../images/icons/telephone.svg");
+    }
+    &:nth-child(1){
+        margin-right: 121px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .site-header__item:nth-child(1){
+        &::before{
+            position: absolute;
+            left: -12px;
+            top: 16px;
+            width: 11px;
+            height: 11px;
+            border-radius: 50px;
+            background-color: #fff;
+            content: "";
+        }
+    }
+    .site-header__item:nth-child(2){
+        margin-right: 75px;
+        margin-left: 87px;
+    }
+    .site-header__item:nth-child(4){
+        margin-left: 64px;
+    }
+    .site-header__list{
+        position: relative;
+        margin-right: 69px;
+    }
+}
+
+
+.site-header__hamburger{
+    width: 26px;
+    height: 24px;
+    background-image: url("../images/icons/hamburger.svg");
+    background-repeat: no-repeat;
+}

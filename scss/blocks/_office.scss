@@ -1,0 +1,57 @@
+.office__title-wrapper{
+    max-width: 700px;
+    & > h2{
+        line-height: 30px;
+    }
+}
+
+.office__subtitle{
+    font-size: 30px;
+}
+
+.office__desc{
+    line-height: 30px;
+    color: #525252;
+}
+
+.office__subwrapper{
+    max-width: 545px;
+}
+
+.office__image-wrapper{
+    margin-top: 42px;
+    max-width: 1021px;
+    & > img{
+        width: 80%;
+    }
+}
+
+
+
+@media screen and (min-width: 768px){
+    .office{
+        padding-top: 83px!important;
+    }
+
+    .office__desktop__wrapper{
+        & > img{
+            width: 80%;
+        }
+    }
+    
+    .office__title-wrapper{
+        margin-bottom: 49px;
+        & > h2{
+            font-size: 25px!important;
+            line-height: 46px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .office__desktop__wrapper{
+        & > img{
+            width: 90%;
+        }
+    }
+}
