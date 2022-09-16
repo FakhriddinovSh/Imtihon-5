@@ -3,6 +3,7 @@ $('.slick__list').slick({
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
+    slidesPerGroup: 1,
     responsive: [
         {
             breakpoint: 1351,
@@ -13,3 +14,4 @@ $('.slick__list').slick({
         }
     ]
 });
+

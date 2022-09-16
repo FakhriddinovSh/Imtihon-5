@@ -89,7 +89,7 @@
     width: 82%;
     max-width: 545px;
     margin-bottom: 60px;
-}
+} 
 
 @media screen and (min-width: 500px){
     .slick__wrapper{
@@ -106,3 +106,12 @@
         height: 400px;
     }
 }
+
+@media screen and (max-width: 1337px){
+    .slick__track{
+        transform: translate3d(-5010px, 0px, 0px)!important;
+    }
+}
+
+
+
